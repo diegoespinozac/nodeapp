@@ -1,4 +1,2 @@
-FROM centos:latest
-RUN yum install vim -y && mkdir /vim
-WORKDIR /vim
-ENTRYPOINT ["/bin/bash"]
+# Download base image ubuntu 22.04
+FROM ubuntu:22.04
